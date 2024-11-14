@@ -1,0 +1,95 @@
+body {
+    background: #ededed;
+}
+
+.main {
+    max-width: 600px;
+    margin: auto;
+
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 34px;
+}
+
+#weather {
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.weather-input {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 5px;
+}
+
+.box {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.weather-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: gray 0 0 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.weather-data p.city {
+    font-size: 26px;
+}
+
+.weather-data-left {
+    display: flex;
+}
+
+.weather-data-left-text {
+    align-self: center;
+}
+
+.weather-data p span {
+    font-size: 34px;
+    background-color: #ededed;
+}
+
+.weather-data-img {
+    width: 60px;
+}
+
+#forecast {
+    max-width: 600px;
+    display: flex;
+    margin-top: 16px;
+    gap: 10px;
+    box-shadow: gray 0 0 10px;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+.day {
+    display: block;
+    margin: auto;
+    align-items: center;
+    box-shadow: gray 0 0 10px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.day p {
+    text-align: center;
+}
+
+.day-temp {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px
+}
